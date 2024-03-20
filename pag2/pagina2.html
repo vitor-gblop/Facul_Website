@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
     <link rel="stylesheet" href="../style1.css">
+
+    <script src="../index.js"></script>
     
     <title>mais</title>
 
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1> pagina do vitor </h1>
-        <button class="menuB"> 
+        <button id="menuB"> 
             <img src="../img/menu-1.png" alt="">
             <div class="conteudo">
                 <ul>
@@ -43,7 +45,7 @@
     
     <section>
          <h2>Sobre</h2>
-         <div class="a3_especial">
+         <div id="a3_especial">
             <img src="imgs/default-avatar.png" alt="" id="Avatar">
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -52,8 +54,13 @@
             </p>
          </div>
          <h2>Configurações</h2>
-         <div class="a3_especial">
-            <h1>SOON...</h1>
+         <div id="a3_especial">
+            <h1>
+                <p>change colors: </p>
+                <input type="button" value="Roxo" id ="changeColors" onclick="roxo()"> <br>
+                <input type="button" value="Amarelo" id ="changeColors" onclick="amarelo()"> <br>
+                <input type="button" value="Verde" id ="changeColors" onclick="verde()"> <br>
+            </h1>
          </div>
     </section>
     <footer>

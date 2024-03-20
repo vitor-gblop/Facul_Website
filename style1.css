@@ -26,7 +26,7 @@
 
     --Pallete4Color1: #e0ca47;
     --Pallete4Color2: #ccb829;
-    --Pallete4Color4: #b8a61c;
+    --Pallete4Color3: #b8a61c;
     --Pallete4Color4: #a3940e;
     --Pallete4Color5: #908200;
 
@@ -122,6 +122,29 @@ table td,th{
     margin: 10px auto  20px auto;
 }
 
+#changeColors
+{
+    width: 100px;
+    margin: 15px 0 0 10vw;
+}
+
+#a3_especial
+{
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px 0 30px 0;
+    margin-bottom: 30px;
+    width: 90vw;
+
+    padding: 5px;
+
+    border-radius: 10px;
+    background-color: var(--escuro);
+
+    max-width: 90%;
+}
+
 /* class */
 .a1 {
     margin: auto;
@@ -158,21 +181,7 @@ table td,th{
     max-width: 1500px;
     background: var(--escuro);
 }
-.a3_especial
-{
-    display: flex;
-    flex-direction: column;
 
-    margin: 10px 0 30px 0;
-    margin-bottom: 30px;
-
-    padding: 5px;
-
-    border-radius: 10px;
-    background-color: var(--escuro);
-
-    max-width: 90%;
-}
 
 .b1 {
     margin: 7px 7px 7px 15px;
@@ -197,7 +206,7 @@ a:hover {
 
 
 /* menu de navegação */
-.menuB {
+#menuB {
     position: relative;
     top: 10px;
 
@@ -241,7 +250,7 @@ a:hover {
 
     background-color: var(--Pallete1Color3);
 }
-.menuB:hover {
+#menuB:hover {
     background-color: var(--Pallete1Color2);
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
@@ -249,7 +258,7 @@ a:hover {
 {
     background-color: var(--Pallete1Color2);
 }
-.menuB:hover .conteudo {
+#menuB:hover .conteudo {
     left: -15px;
 }
 .menuIcon
